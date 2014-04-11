@@ -9,7 +9,7 @@ $('#reset').on('click', function(e) {
 });
 
 var setTime = function() {
-  var time = moment().format('hh:mm:ss');
+  var time = moment().format('HH:mm:ss');
   var date = moment().format('dddd');
   if (date == "Wednesday")
     {

@@ -6,8 +6,9 @@ body {
   text-align: center;
 }
 
-div#screen {
-  display: block;
+div#relogio {
+  
+  display: -webkit-inline-box;
   position: relative;
   text-align: center;
   opacity: 1;
@@ -15,7 +16,7 @@ div#screen {
   -moz-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-div#screen.activate {
+div#relogio.activate {
   opacity: 0;
   margin-left: 500px;
   visibility: hidden;
@@ -23,11 +24,11 @@ div#screen.activate {
 
 div#time {
   font-size: 72px;
-  margin: 60px auto 0px;
+  margin: 10px auto 0px;
 }
 
 div#date {
-  margin: 20px auto 0px;
+  margin: auto 0px;
 }
 
 div#locker {
@@ -93,8 +94,12 @@ div#locker:hover {
 }
 
 .date #year {
-  color: #C1C1C1;
   font-size: 1.8em;
+  margin-top: 10px;
+}
+
+.date {
+  color: #000;
 }
 
 .clock {
@@ -133,5 +138,13 @@ div#locker:hover {
 }
 
 h1 {
+  border-bottom: 1px solid #fff;
   font-size: 38px;
+  width: 100%;
+}
+
+
+#hora {
+  margin: 50px;
+  float: center;
 }
