@@ -1,13 +1,17 @@
 body {
-  background-color: #111;
-  color: #fff;
+  height: 100%;
+  background-color: #000;
+  color: #000;
   font-family: 'Open Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
+.pagina{
+  min-height:100%;
+}
+
 div#relogio {
-  
   display: -webkit-inline-box;
   position: relative;
   text-align: center;
@@ -61,11 +65,6 @@ div#locker:hover {
   color: white;
 }
 
-@keyframes glow {
-  to {
-    color: #fff;
-  }
-}
 #reset {
   position: absolute;
   bottom: 20px;
@@ -80,7 +79,7 @@ div#locker:hover {
 }
 
 .box {
-  background: #FFF;
+  background: #272822;
   border-radius: 5px;
   display: inline-block;
   margin: 6em 0 2em;
@@ -88,23 +87,25 @@ div#locker:hover {
 }
 
 .date #daymonth {
-  color: #454545;
+  color: #fff;
   font-size: 2em;
   padding: 10px 0;
 }
 
 .date #year {
+  color: #fff;
   font-size: 1.8em;
   margin-top: 10px;
 }
 
 .date {
-  color: #000;
+  color: #fff;
 }
 
 .clock {
+
   background-color: #187FCB;
-  border: 0.6em solid white;
+  border: 0.6em solid #272822;
   border-radius: 100%;
   height: 8em;
   margin-top: -50%;
@@ -137,14 +138,32 @@ div#locker:hover {
   background: #484742;
 }
 
-h1 {
-  border-bottom: 1px solid #fff;
+#titulo {
+  border-bottom: 2px solid #000;
   font-size: 38px;
   width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
 }
 
+nav {
+  background-color: #000;
+}
 
 #hora {
   margin: 50px;
   float: center;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  color: #000;
+  background-color: #AAAAAA;
+}
+
+footer p{
+  margin: 0 auto;
 }
