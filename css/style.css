@@ -161,9 +161,12 @@ footer {
   bottom:0;
   width:100%;
   color: #000;
-  background-color: #AAAAAA;
+  padding: 10px;
+  text-align: left;
 }
 
-footer p{
-  margin: 0 auto;
+footer img {
+  float: left;
+  height: 30px;
 }
+
