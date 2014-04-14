@@ -64,10 +64,8 @@ function time() {
       s = d.getSeconds() * 6,
       m = d.getMinutes() * 6 + (s / 60),
       h = d.getHours() % 12 / 12 * 360 + (m / 12);  
+
     clockH.css("transform", "rotate("+h+"deg)");
     clockM.css("transform", "rotate("+m+"deg)");
     clockS.css("transform", "rotate("+s+"deg)");
 }
-
-var clock = setInterval(time, 1000);
-time();
