@@ -26,7 +26,7 @@ div#relogio.activate {
   visibility: hidden;
 }
 
-div#time {
+span#time {
   font-size: 72px;
   margin: 10px auto 0px;
 }
