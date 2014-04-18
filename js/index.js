@@ -69,3 +69,6 @@ function time() {
     clockM.css("transform", "rotate("+m+"deg)");
     clockS.css("transform", "rotate("+s+"deg)");
 }
+
+var clock = setInterval(time, 1000);
+time();
