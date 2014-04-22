@@ -162,11 +162,9 @@ footer {
   width:100%;
   color: #000;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 footer img {
-  float: left;
-  height: 30px;
+  float: center;
 }
-
